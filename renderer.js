@@ -35,6 +35,7 @@ ipc.on('animate', () => {
     isSpeakingOrAnimating = true;
     currentAgent.show();
     currentAgent.animate();
+    close();
   }
 });
 
