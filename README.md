@@ -4,6 +4,10 @@ You can now revive Clippy on your desktop to give you random quotes during the d
 ## Usage
 Desktop Clippy will give you every 15 minutes a random quote for fun. With the tray icon you can also change the agent that communicates with you and have random quotes and animation at any time.
 
+![Clippy with random quote](./images/text.gif)
+
+![Clippy with random animation](./images/animating.gif)
+
 ## How to build the project
 
 1. Clone the project
