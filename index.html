@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Clippy</title>
+    <style>
+      html, body {
+        margin: 0px;
+        padding: 0px;
+        height: 100%;
+        overflow: hidden;
+      }
+    </style>
+    <!-- Add the stylesheet to the head -->
+    <link rel="stylesheet" type="text/css" href="clippy.css" media="all">
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="jquery.js"></script>
+    <script>if (window.module) module = window.module;</script>
+    <!-- Clippy.js -->
+    <script src="clippy.js"></script>
+  </head>
+  <body>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>
